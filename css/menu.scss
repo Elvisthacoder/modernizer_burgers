@@ -1,0 +1,24 @@
+// for presentation only
+body {marging-top: 2rem;}
+
+$menu-background: #333;
+
+.title-bar {
+  background: $menu-background;
+  padding: 0.9rem;
+}
+
+.top-bar {
+  background: $menu-background;
+  
+  ul {
+    background: $menu-background;
+  
+    li {
+      background: $menu-background;
+    
+        a {
+          color: #fff;
+      }
+    }
+  }
